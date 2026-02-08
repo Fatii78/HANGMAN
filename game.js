@@ -32,6 +32,8 @@ for (let letter  of secretWord){
     }}
     word.textContent = BlankSpace
      if (!BlankSpace.includes("_")){
+      clearInterval(timer)
+      gameOver = true
     window.location.href = "win.html"
 }
 }
@@ -56,6 +58,7 @@ keyboard.textContent = ""
 }
 // check letter
 function checkLetter(letter, button){
+  if(gameOver) return
   button.disabled = true
   if(secretWord.includes(letter)){
     chooseIetter.add(letter)
@@ -65,5 +68,35 @@ function checkLetter(letter, button){
   }
 }
 
+//Timer 
+let time = 30
+let timer
+let gameOver = false
+
+function startTimer(){
+  timer = setInterval(() => {
+    time--
+    document.getElementById("time").textContent = time
+    if(time === 0){
+      clearInterval(timer)
+      gameOver = true
+      stopGame()
+    }
+  }, 1000)
+}
+
+function stopGame(){
+  document.querySelectorAll(".key").forEach(button => {
+    button.disabled = true
+  })
+}
+
 blankspace()
 Keyboard()
+
+time = 30
+gameOver = false
+document.getElementById("time").textContent = time
+
+
+startTimer()
