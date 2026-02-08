@@ -2,6 +2,7 @@
 
 *{
   box-sizing: border-box;
+  
 }
 
 body{
@@ -108,4 +109,16 @@ body{
   justify-self: start;
   margin-top:-50px; 
   margin-left: -280px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: white;
+
+  background-image:
+    linear-gradient(to right, #ccc 1px, transparent 1px),
+    linear-gradient(to bottom, #ccc 1px, transparent 1px);
+
+  background-size: 20px 20px;
 }
