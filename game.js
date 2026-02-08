@@ -10,6 +10,8 @@ const categoryTitle = document.getElementById("categoryTitle")
 
 const selectedCategory = localStorage.getItem("selectedCategory") || "ANIMALS"
 categoryTitle.textContent = selectedCategory
+let roundNumber =
+  Number(localStorage.getItem("roundNumber")) || 1
 
 backB.addEventListener("click", () => {
   window.location.href = "home.html"
