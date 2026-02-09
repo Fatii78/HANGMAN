@@ -15,7 +15,7 @@ let roundNumber =
   Number(localStorage.getItem("roundNumber")) || 1
 
 backB.addEventListener("click", () => {
-  window.location.href = "home.html"
+  window.location.href = "index.html"
 })
 
 //select a random word
@@ -126,7 +126,7 @@ yesB.addEventListener("click", () => {
 })
 
 noB.addEventListener("click", () => {
-  window.location.href = "home.html"
+  window.location.href = "index.html"
 })
 
 function showGameOver(){
