@@ -1,4 +1,4 @@
-# HANGMAN
+# WORD HUNTER
 
 ## Date: 2/5/2026
 
@@ -28,22 +28,26 @@
 
 ### ***Screenshots***
 
-##### image header 1
-![Boy](./IMAGE.jpg)
+
+![HOME](./home.png)
+![GAME](./game.png)
+![GAME OVER](./game%20over.png)
+![WIN](./win.png)
+![WELL DONE](./well%20done.png)
 
 ***
 
 ### ***Future Updates***
 
-- [ ] Future Update 1
-- [ ] Future Update 2
-- [x] Completed Update
-- [x] ~~Strikethrough~~ Items Also
+- [ ] Add more categories 
+- [ ] Add more round for each category
+- [ ] Set a limit for wrong attempts
+- [ ] Add sound effects
+- [ ] Improve game design and animations
+
 ***
 
 ### ***Credits***
-
-##### Funny Images: [DuckDuckGo Search](http://www.duckduckgo.com)
 
 ##### Markdown Guide: [ia.net](https://ia.net/writer/support/general/markdown-guide)
 

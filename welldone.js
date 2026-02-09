@@ -1,5 +1,5 @@
 //home button
-const homeb = document.getElementById("homeb")
-homeb.addEventListener("click", () => {
+const homebb = document.getElementById("homebb")
+homebb.addEventListener("click", () => {
   window.location.href = "home.html"
 })

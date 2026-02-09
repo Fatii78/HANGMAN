@@ -4,6 +4,7 @@ const Words = {
   FOODS: ["TOMATO", "RICE", "SALAD", "SOUP", "PANCAKE", "PIZZA", "PASTA", "YOGURT", "CARROT"],
   JOBS: ["ENGINEER", "POLICE", "CHEF", "FARMER", "TEACHER", "DRIVER", "WAITER", "ACTOR", "DOCTOR"]
 }
+
 //back button + title
 const backB = document.getElementById("backB")
 const categoryTitle = document.getElementById("categoryTitle")
@@ -16,6 +17,7 @@ let roundNumber =
 backB.addEventListener("click", () => {
   window.location.href = "home.html"
 })
+
 //select a random word
 const categoryWords = Words[selectedCategory]
 const random = Math.floor(Math.random() * categoryWords.length)
@@ -66,6 +68,7 @@ keyboard.textContent = ""
     keyboard.appendChild(button)
   })
 }
+
 // check letter
 function checkLetter(letter, button){
   if(gameOver) return
@@ -112,6 +115,7 @@ document.getElementById("time").textContent = time
 
 startTimer()
 
+//game over
 const gameOverr = document.getElementById("gameOver")
 const yesB = document.getElementById("yesB")
 const noB = document.getElementById("noB")
