@@ -83,6 +83,7 @@ function startTimer(){
       clearInterval(timer)
       gameOver = true
       stopGame()
+        showGameOver()
     }
   }, 1000)
 }
@@ -102,3 +103,20 @@ document.getElementById("time").textContent = time
 
 
 startTimer()
+
+const gameOverr = document.getElementById("gameOver")
+const yesB = document.getElementById("yesB")
+const noB = document.getElementById("noB")
+gameOverr.classList.add("hidden")
+
+yesB.addEventListener("click", () => {
+  location.reload()
+})
+
+noB.addEventListener("click", () => {
+  window.location.href = "home.html"
+})
+
+function showGameOver(){
+  gameOverr.classList.remove("hidden")
+}

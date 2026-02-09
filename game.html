@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HANGMAN</title>
+  <title>Word Hunter</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
   <script defer src="./game.js"></script>
@@ -24,11 +24,19 @@
       <div id="word" class="word"></div>
       <div id="keyboard" class="keyboard"></div>
 
-     
     </div>
   </section>
-</body>
-</html>
+
+ <div id="gameOver" class="gameOver hidden">
+  <div class="gameOverCard">
+    <h1>Game Over</h1>
+    <p>Play again?</p>
+    <div class="btns">
+      <button id="yesB">Yes</button>
+      <button id="noB">No</button>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
