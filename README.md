@@ -24,26 +24,29 @@
 ##### The player tries to guess the hidden word by selecting the correct letters.
 
 ##### When the word is fully guessed, a “Round Complete ✔” message appears to celebrate success.
+
+##### The project was deployed and can be viewed [here](https://fatii78.github.io/Word-Hunter/index.html).
 ***
 
 ### ***Screenshots***
-
-
 ![HOME](./home.png)
 ![GAME](./game.png)
 ![GAME OVER](./game%20over.png)
 ![WIN](./win.png)
 ![WELL DONE](./well%20done.png)
-
+#### WireFrames
+![WIREFRAMES](./wireFrames.png)
 ***
 
 ### ***Future Updates***
 
 - [ ] Add more categories 
 - [ ] Add more round for each category
+- [ ] Add hint system for players (Give clues to help guess the word)
 - [ ] Set a limit for wrong attempts
 - [ ] Add sound effects
 - [ ] Improve game design and animations
+
 
 ***
 
