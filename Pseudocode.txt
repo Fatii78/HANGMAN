@@ -1,0 +1,16 @@
+Home Screen: At the start of the game, the user sees the game title and three category buttons (ANIMALS, FOODS, and JOBS).
+Each button is created with the HTML <button> element, and the JavaScript addEventListener is used to detect when the user clicks one of the categories.
+
+Game Start: When a category is clicked, the home screen disappears, and the game begins.
+JavaScript uses Math.random() to select a random word from an array that belongs to the selected category.
+
+Word Blanks Display: Blank spaces (_ _ _) appear to show the word that the user needs to guess.
+Each blank represents one letter in the secret word.
+
+Letter Input & Checking: The user sees an on-screen keyboard and clicks a letter to check whether the chosen letter exists in the secret word.
+
+An if / else statement is used to control the game logic: 
+If the letter is correct, the blank is replaced with the correct letter using DOM manipulation.
+Timer System: The user sees a countdown clock 
+
+Round Complete Screen: When the user guesses all letters correctly, the screen changes to show “Round Complete”, and a checkmark icon (✔) is added.
