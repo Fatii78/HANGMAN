@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Word Hunter</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loading...</title>
+  <link rel="stylesheet" href="loading.css" />
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-
-  <script defer src="./home.js"></script>
+  <script defer src="loading.js"></script>
 </head>
+<body>
+      <div class="frame">
+  <div class="wrap">
+    <h1 class="title">Loading...</h1>
 
-<body> 
-  <section id="homeScreen" class="screen">
-    <div class="frame">
-    <h1 class="title">Word Hunter</h1>
-    <div class="menu">
-    <button class="category" data-category="ANIMALS">ANIMALS</button>
-    <button class="category" data-category="FOODS">FOODS</button>
-    <button class="category" data-category="JOBS">JOBS</button>
+    <div class="bar">
+      <div class="fill" id="fill"></div>
+      <div class="percent" id="percent">0%</div>
     </div>
-    </div>
-  </section>
-
+  </div>
+</div>
+  
 </body>
 </html>

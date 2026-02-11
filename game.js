@@ -15,7 +15,7 @@ let roundNumber =
   Number(localStorage.getItem("roundNumber")) || 1
 
 backB.addEventListener("click", () => {
-  window.location.href = "index.html"
+  window.location.href = "home.html"
 })
 
 //select a random word
@@ -35,6 +35,7 @@ for (let letter  of secretWord){
       BlankSpace += "_ "
     }}
     word.textContent = BlankSpace
+    
      if (!BlankSpace.includes("_")){
       clearInterval(timer)
       gameOver = true
@@ -126,7 +127,7 @@ yesB.addEventListener("click", () => {
 })
 
 noB.addEventListener("click", () => {
-  window.location.href = "index.html"
+  window.location.href = "home.html"
 })
 
 function showGameOver(){

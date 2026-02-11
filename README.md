@@ -25,7 +25,7 @@
 
 ##### When the word is fully guessed, a “Round Complete ✔” message appears to celebrate success.
 
-##### The project was deployed and can be viewed [here](https://fatii78.github.io/Word-Hunter/index.html).
+##### The project was deployed and can be viewed [here](https://word_hunter.surge.sh/).
 ***
 
 ### ***Screenshots***
