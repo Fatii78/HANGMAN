@@ -29,6 +29,7 @@
 ***
 
 ### ***Screenshots***
+![LOADING](./loading.png)
 ![HOME](./home.png)
 ![GAME](./game.png)
 ![GAME OVER](./game%20over.png)
